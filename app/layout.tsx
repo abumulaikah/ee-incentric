@@ -12,7 +12,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol = requestHeaders.get("x-forwarded-proto") ?? (host.startsWith("localhost") ? "http" : "https");
   const image = `${protocol}://${host}/og.png`;
   const title = "Employee Engagement Assessment | Incetric Engage";
-  const description = "Ukur 12 sinyal engagement dan ubah pengalaman karyawan menjadi prioritas pertumbuhan yang nyata.";
+  const description = "Lihat apa yang mendorong engagement tim Anda, temukan area yang perlu dibenahi, dan susun tindak lanjut yang lebih terarah.";
   return {
     title, description,
     icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
