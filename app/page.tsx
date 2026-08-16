@@ -4,21 +4,21 @@ export const metadata: Metadata = { title: "Employee Engagement Assessment | Inc
 
 const impacts = [["78%", "lebih sedikit", "ketidakhadiran"], ["23%", "lebih tinggi", "profitabilitas"], ["18%", "lebih tinggi", "penjualan"], ["14%", "lebih tinggi", "produktivitas"]];
 const pillars = [
-  { number: "01", name: "Kebutuhan Dasar", label: "Fondasi untuk bekerja", copy: "Karyawan bisa fokus memberi hasil terbaik ketika arah kerja jelas dan semua kebutuhan untuk bekerja tersedia.", qs: [["Q1", "Ekspektasi yang jelas"], ["Q2", "Dukungan kerja yang memadai"]] },
-  { number: "02", name: "Kontribusi Individu", label: "Ruang untuk berkontribusi", copy: "Karyawan lebih terlibat saat dapat mengandalkan kekuatan terbaiknya dan merasa kontribusinya sungguh dihargai.", qs: [["Q3", "Pemanfaatan kekuatan"], ["Q4", "Apresiasi yang bermakna"]] },
-  { number: "03", name: "Kebersamaan Tim", label: "Koneksi dan kolaborasi", copy: "Rasa peduli, suara yang didengar, dan tujuan bersama membangun tim yang saling percaya dan mau bergerak lebih jauh.", qs: [["Q5", "Kepedulian"], ["Q6", "Dukungan untuk berkembang"], ["Q7", "Suara yang didengar"], ["Q8", "Tujuan bersama"], ["Q9", "Komitmen pada kualitas"], ["Q10", "Kedekatan antarrekan"]] },
-  { number: "04", name: "Pertumbuhan", label: "Perjalanan ke depan", copy: "Percakapan yang jujur tentang kemajuan dan kesempatan belajar membuat talenta melihat masa depan bersama organisasi.", qs: [["Q11", "Percakapan perkembangan"], ["Q12", "Kesempatan untuk bertumbuh"]] },
+  { number: "01", name: "Basic Needs", label: "Fondasi untuk bekerja", copy: "Karyawan bisa fokus memberi hasil terbaik ketika arah kerja jelas dan semua kebutuhan untuk bekerja tersedia.", qs: [["Q1", "Ekspektasi yang jelas"], ["Q2", "Dukungan kerja yang memadai"]] },
+  { number: "02", name: "Individual Contribution", label: "Ruang untuk berkontribusi", copy: "Karyawan lebih terlibat saat dapat mengandalkan kekuatan terbaiknya dan merasa kontribusinya sungguh dihargai.", qs: [["Q3", "Pemanfaatan kekuatan"], ["Q4", "Apresiasi yang bermakna"]] },
+  { number: "03", name: "Teamwork", label: "Koneksi dan kolaborasi", copy: "Rasa peduli, suara yang didengar, dan tujuan bersama membangun tim yang saling percaya dan mau bergerak lebih jauh.", qs: [["Q5", "Kepedulian"], ["Q6", "Dukungan untuk berkembang"], ["Q7", "Suara yang didengar"], ["Q8", "Tujuan bersama"], ["Q9", "Komitmen pada kualitas"], ["Q10", "Kedekatan antarrekan"]] },
+  { number: "04", name: "Growth", label: "Perjalanan ke depan", copy: "Percakapan yang jujur tentang kemajuan dan kesempatan belajar membuat talenta melihat masa depan bersama organisasi.", qs: [["Q11", "Percakapan perkembangan"], ["Q12", "Kesempatan untuk bertumbuh"]] },
 ];
 const signalGroups = [
-  { number: "01", title: "Kebutuhan Dasar", subtitle: "Arah dan dukungan untuk bekerja optimal", items: [
+  { number: "01", title: "Basic Needs", subtitle: "Arah dan dukungan untuk bekerja optimal", items: [
     ["Q1", "Ekspektasi yang Jelas", "Saya memahami hasil, tanggung jawab, dan prioritas yang diharapkan dari saya."],
     ["Q2", "Dukungan Kerja yang Memadai", "Saya memiliki perangkat, informasi, dan dukungan yang dibutuhkan untuk menghasilkan pekerjaan terbaik."],
   ]},
-  { number: "02", title: "Kontribusi Individu", subtitle: "Kesempatan memberi yang terbaik dan merasa dihargai", items: [
+  { number: "02", title: "Individual Contribution", subtitle: "Kesempatan memberi yang terbaik dan merasa dihargai", items: [
     ["Q3", "Ruang untuk Mengandalkan Kekuatan", "Dalam pekerjaan sehari-hari, saya punya kesempatan untuk menggunakan kemampuan terbaik saya."],
     ["Q4", "Apresiasi yang Bermakna", "Kontribusi yang saya berikan mendapat pengakuan dan apresiasi yang tulus."],
   ]},
-  { number: "03", title: "Kebersamaan Tim", subtitle: "Hubungan yang membuat orang merasa didengar dan terhubung", items: [
+  { number: "03", title: "Teamwork", subtitle: "Hubungan yang membuat orang merasa didengar dan terhubung", items: [
     ["Q5", "Kepedulian sebagai Individu", "Atasan atau rekan kerja menunjukkan kepedulian kepada saya, bukan hanya pada hasil pekerjaan saya."],
     ["Q6", "Dukungan untuk Berkembang", "Ada seseorang di tempat kerja yang aktif mendorong saya untuk terus maju dan berkembang."],
     ["Q7", "Suara yang Didengar", "Pendapat saya didengar dan sungguh dipertimbangkan dalam keputusan yang relevan."],
@@ -26,7 +26,7 @@ const signalGroups = [
     ["Q9", "Komitmen pada Kualitas", "Rekan-rekan saya memiliki standar dan komitmen yang sama untuk menghasilkan pekerjaan berkualitas."],
     ["Q10", "Kedekatan Antar-rekan", "Saya memiliki hubungan yang dekat dan saling percaya dengan orang-orang di tempat kerja."],
   ]},
-  { number: "04", title: "Pertumbuhan", subtitle: "Percakapan dan peluang yang membuka masa depan", items: [
+  { number: "04", title: "Growth", subtitle: "Percakapan dan peluang yang membuka masa depan", items: [
     ["Q11", "Percakapan tentang Perkembangan", "Dalam enam bulan terakhir, ada percakapan yang membantu saya memahami kemajuan dan langkah pengembangan berikutnya."],
     ["Q12", "Kesempatan untuk Terus Bertumbuh", "Dalam setahun terakhir, saya mendapatkan kesempatan yang berarti untuk belajar dan mengembangkan diri."],
   ]},
