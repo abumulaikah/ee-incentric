@@ -17,3 +17,4 @@ body{color:var(--ink)}
 .question-tags b{color:var(--ink)}
 .avatars span{color:var(--ink)}
 .urgency-stats strong,.urgency-action p b,.case-result strong,.definition-grid>div p:first-child,.cta-action .button{color:var(--ink)}
+.pillar-summary{display:block;list-style:none;cursor:pointer}.pillar-summary::-webkit-details-marker{display:none}.pillar[open]{background:var(--navy);color:white;transform:translateY(-3px);box-shadow:0 18px 40px rgba(10,30,55,.16)}.pillar[open] .pillar-copy{color:#b7c3d1}.pillar[open] .question-tags span{background:rgba(255,255,255,.1);color:#d0d8e2}.pillar[open] .question-tags b{color:var(--yellow)}
