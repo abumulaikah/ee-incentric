@@ -15,7 +15,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const description = "Pahami faktor yang membuat karyawan peduli pada pekerjaan dan berkomitmen pada hasilnya, lalu tentukan tindak lanjut yang lebih terarah.";
   return {
     title, description,
-    icons: { icon: "/favicon.svg", shortcut: "/favicon.svg" },
+    icons: { icon: "/favicon.png", shortcut: "/favicon.png" },
     openGraph: { title, description, images: [{ url: image, width: 1200, height: 630, alt: "Incentric Engage Employee Engagement Assessment" }] },
     twitter: { card: "summary_large_image", title, description, images: [image] },
   };
